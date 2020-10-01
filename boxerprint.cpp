@@ -9,6 +9,7 @@ using std::endl;
 using std::cin;
 int boxerprint(){
     do {
+        int end=1;
         string str;
         cout << "Enter a string: ";
         cin >> str;
@@ -34,6 +35,6 @@ int boxerprint(){
 
         }
         cout << "Press 1 to continue: ";
-        cin >> ch;
+        cin >> end;
     }
 
