@@ -2,13 +2,15 @@
 // Created by Clayton on 9/29/2020.
 //
 
-#include "boxer.h"
+
 #include <iostream>
+#include "boxer.h"
+#include <string>
 using std::string;
 using std::cout;
 using std::endl;
 using std::cin;
-int boxer(){
+int boxer(std::string str,int num){
     for(int i=0;i<num;i++)
         cout<<"*";
     cout<<str;

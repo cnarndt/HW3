@@ -4,5 +4,8 @@
 
 #ifndef HW3_BOXER_H
 #define HW3_BOXER_H
-int boxer();
+
+
+
+int boxer(std::string str, int num);
 #endif //HW3_BOXER_H
