@@ -8,37 +8,32 @@ using std::cout;
 using std::endl;
 using std::cin;
 int boxerprint(){
-    do{
+    do {
         string str;
-        cout<<"Enter a string: ";
-        cin>>str;
+        cout << "Enter a string: ";
+        cin >> str;
         int num;
-        cout<<"Enter number of layers: ";
-        cin>>num;
-        while(num<=0)
-        {
-            cout<<"Enter number of layers: ";
-            cin>>num;
+        cout << "Enter number of layers: ";
+        cin >> num;
+        while (num <= 0) {
+            cout << "Enter number of layers: ";
+            cin >> num;
         }
-        for(int i=1;i<=num;i++)
-        {
-            for(int j=0;j<2*num+str.length();j++) //creates the first layer of stars
-                cout<<"*";
-            cout<<endl;
+        for (int i = 1; i <= num; i++) {
+            for (int j = 0; j < 2 * num + str.length(); j++) //creates the first layer of stars
+                cout << "*";
+            cout << endl;
 
         }
         //insert the string that the user insertts
 
-        for(int i=1;i<=num;i++)
-        {
-            for(int j=0;j<2*num+str.length();j++)
-                cout<<"*";
-            cout<<endl;
+        for (int i = 1; i <= num; i++) {
+            for (int j = 0; j < 2 * num + str.length(); j++)
+                cout << "*";
+            cout << endl;
 
         }
-
-
-
-        return 0;
-
+        cout << "Press 1 to continue: ";
+        cin >> ch;
+    }
 
