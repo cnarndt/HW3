@@ -8,3 +8,13 @@ using std::string;
 using std::cout;
 using std::endl;
 using std::cin;
+int main(){
+    int end=1;
+
+
+
+    while(end==1);
+    return 0;
+
+}
+
