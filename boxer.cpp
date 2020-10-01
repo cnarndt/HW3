@@ -10,11 +10,11 @@ using std::string;
 using std::cout;
 using std::endl;
 using std::cin;
-int boxer(std::string str,int num){
-    for(int i=0;i<num;i++)
+int boxer(std::string & seqq, int z){
+    for(int i=0;i<z;i++)
         cout<<"*";
-    cout<<str;
-    for(int i=0;i<num;i++)
+    cout<<seqq;
+    for(int i=0;i<z;i++)
         cout<<"*";
     cout<<endl;
 }

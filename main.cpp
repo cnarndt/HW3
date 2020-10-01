@@ -5,6 +5,7 @@
 
 #include<iostream>
 #include "boxerprint.h"
+#include "boxer.h"
 using std::string;
 using std::cout;
 using std::endl;
@@ -25,27 +26,27 @@ int main(){
         }
         for(int i=1;i<=num;i++)
         {
-            std::string & seq = num;
+            string seq;
+            seq = num;
             int k = boxerprint(seq, i);
-
-
         }
-
-        boxer(std::string str,int num);
-
+        for(int i=0;i<num;i++)
+            cout<<"*";
+        cout<<str;
+        for(int i=0;i<num;i++)
+            cout<<"*";
+        cout<<endl;
 
         for(int i=1;i<=num;i++)
         {
-            for(int j=0;j<2*num+str.length();j++)
-                cout<<"*";
-            cout<<endl;
+            string seq = num;
+
+            int k = boxerprint(seq, i);
 
         }
-    }
-}
-    cout << "Press 1 to continue: ";
-    cin >> end;
-    while(end==1);
+        cout << "Press 1 to continue: ";
+        cin >> end;
+    }while(end==1);
     return 0;
 
 }
