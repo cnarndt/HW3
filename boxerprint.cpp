@@ -29,7 +29,12 @@ int boxerprint(){
         }
         //insert the string that the user insertts
 
-      
+        for(int i=1;i<=num;i++)
+        {
+            for(int j=0;j<2*num+str.length();j++)
+                cout<<"*";
+            cout<<endl;
+
         }
 
 
