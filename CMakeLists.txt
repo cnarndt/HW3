@@ -3,4 +3,4 @@ project(HW3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(HW3 main.cpp .idea/boxer.cpp boxer.cpp boxer.h boxerprint.cpp boxerprint.h)
+add_executable(HW3 main.cpp .idea/boxer.cpp  boxerprint.cpp boxerprint.h)

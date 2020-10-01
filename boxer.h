@@ -7,5 +7,5 @@
 
 
 
-int boxer(std::string str, int num);
+int boxer(std::string & seqq, int z);
 #endif //HW3_BOXER_H

@@ -26,9 +26,9 @@ int main(){
         }
         for(int i=1;i<=num;i++)
         {
-            string seq;
-            seq = num;
+            std::string seq = str;
             int k = boxerprint(seq, i);
+
         }
         for(int i=0;i<num;i++)
             cout<<"*";
@@ -39,8 +39,7 @@ int main(){
 
         for(int i=1;i<=num;i++)
         {
-            string seq = num;
-
+            std::string seq = str;
             int k = boxerprint(seq, i);
 
         }
