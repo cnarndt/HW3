@@ -1,6 +1,10 @@
 #include<iostream>
 #include "boxerprint.h"
-using namespace std;
+using std::string;
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main(){
     int ch=1;
     do{
@@ -9,11 +13,11 @@ int main(){
         cout<<"Enter a string: ";
         cin>>str;
         int num;
-        cout<<endl<<"Enter number of layers: ";
+        cout<<endl<<"Enter number of layers:";
         cin>>num;
         while(num<=0)
         {
-            cout<<endl<<"Enter number of layers: ";
+            cout<<endl<<"Enter number of layers:";
             cin>>num;
         }
         boxerprint(str, num);
