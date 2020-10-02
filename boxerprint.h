@@ -4,5 +4,7 @@
 
 #ifndef HW3_BOXERPRINT_H
 #define HW3_BOXERPRINT_H
-int boxerprint(std::string & seq, int k);
+
+void boxerprint(const std::string &seq,const int& k);
+
 #endif //HW3_BOXERPRINT_H
